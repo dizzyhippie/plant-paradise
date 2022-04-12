@@ -1,0 +1,180 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#fff",
+    "colors_accent_1": "#f7d9c3",
+    "colors_accent_2": "#a66253",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#f7d9c3",
+    "spacing_grid_horizontal": 8,
+    "card_style": "card",
+    "badge_position": "bottom right",
+    "social_twitter_link": "https:\/\/twitter.com\/home",
+    "social_pinterest_link": "https:\/\/www.pinterest.ca\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/",
+    "favicon": "shopify:\/\/shop_images\/logo-main-01.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo-main-01.png",
+    "checkout_logo_position": "left",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Shop House Plant Paradise",
+              "color_scheme": "accent-2",
+              "link": "shopify:\/\/collections\/all"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-2",
+          "logo": "shopify:\/\/shop_images\/logo-main-01.png",
+          "logo_width": 120,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true,
+          "margin_bottom": 0
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-2": {
+            "type": "text",
+            "settings": {
+              "heading": "Our mission",
+              "subtext": "<p>We are dedicated to growing an excellent assortment of house plants and providing our customers with a fun, unique experience.<\/p>"
+            }
+          },
+          "b8228e63-2ed2-408c-8dfb-c5f740b32116": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/logo-main-01.png",
+              "image_width": 100,
+              "alignment": "center"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Help",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-2",
+          "b8228e63-2ed2-408c-8dfb-c5f740b32116",
+          "footer-0"
+        ],
+        "settings": {
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": true,
+          "margin_top": 48,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 90
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Info"
+              }
+            },
+            "footer-2": {
+              "type": "text",
+              "settings": {
+                "heading": "Our mission"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social": true,
+            "enable_country_selector": false,
+            "enable_language_selector": false,
+            "margin_top": 48
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Paradise!",
+            "heading_size": "large"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Find your perfect plant!",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/plant_heroImage.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "16464084565850405c": {
+      "type": "featured-product",
+      "blocks": {
+        "1646408456c3c003b8-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1646408456c3c003b8-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1646408456c3c003b8-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1646408456c3c003b8-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1646408456c3c003b8-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1646408456c3c003b8-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1646408456c3c003b8-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1646408456c3c003b8-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1646408456c3c003b8-0",
+        "1646408456c3c003b8-1",
+        "1646408456c3c003b8-2",
+        "1646408456c3c003b8-3",
+        "1646408456c3c003b8-4",
+        "1646408456c3c003b8-5",
+        "1646408456c3c003b8-6",
+        "1646408456c3c003b8-7"
+      ],
+      "settings": {
+        "product": "black-bean-bag",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "16463989063cc86e59": {
+      "type": "newsletter",
+      "blocks": {
+        "164639890696bb0a3e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the Plant Paradise Mailing List!"
+          }
+        },
+        "164639890696bb0a3e-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections, learn more about plants, get exclusive offers, and get 10% off of your first order!<\/p>"
+          }
+        },
+        "164639890696bb0a3e-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "164639890696bb0a3e-0",
+        "164639890696bb0a3e-1",
+        "164639890696bb0a3e-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "birds-of-paradise",
+            "second_image": true
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop-all"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plant Paradise Promise",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are passionate about nature and feel privileged to help you bring nature into your living space. We hand-pick your new plant baby from our greenhouse, package it very carefully & ship it to your door!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "16463999127f7b511e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "16463999121cdb0822-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Healthy Plants",
+            "icon": "heart",
+            "row_content": "<p>Plants are healthy, nurtured and taken care of on daily basis.<\/p>",
+            "page": ""
+          }
+        },
+        "16463999121cdb0822-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Grown Onsite",
+            "icon": "leaf",
+            "row_content": "<p>All plants are grown at Plant Paradise facilities, ensuring the best product quality assurance.<\/p>",
+            "page": ""
+          }
+        },
+        "16463999121cdb0822-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "A Team That Cares",
+            "icon": "chat_bubble",
+            "row_content": "<p>Our team is dedicated to giving you a great experience, and helping you along your plant parent journey!<\/p>",
+            "page": ""
+          }
+        },
+        "16463999121cdb0822-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Carefully Shipped",
+            "icon": "box",
+            "row_content": "<p>Your products will be shipped with care, in a way that does not harm the plant.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "16463999121cdb0822-0",
+        "16463999121cdb0822-1",
+        "16463999121cdb0822-2",
+        "16463999121cdb0822-3"
+      ],
+      "settings": {
+        "caption": "House Plant Paradise",
+        "heading": "Our Products",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "16464084565850405c",
+    "featured_collection",
+    "16463989063cc86e59",
+    "collage",
+    "rich_text",
+    "16463999127f7b511e"
+  ]
+}
