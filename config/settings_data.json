@@ -4,7 +4,7 @@
     "colors_accent_1": "#a66253",
     "colors_accent_2": "#a66253",
     "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#f7d9c3",
+    "colors_background_1": "#fff",
     "spacing_grid_horizontal": 8,
     "card_style": "card",
     "badge_position": "bottom right",
