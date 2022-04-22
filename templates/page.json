@@ -91,12 +91,12 @@
         "1650637691485c7170-2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "image_width": "full",
         "image_ratio": "square",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "Shop Plants",
         "button_link": "",
         "swipe_on_mobile": false,
         "color_scheme": "background-1",
