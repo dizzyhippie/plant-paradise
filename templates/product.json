@@ -141,7 +141,7 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Shipping Information",
             "heading_size": "h1"
           }
         },
@@ -158,6 +158,7 @@
         "image-with-text-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/concernce.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
