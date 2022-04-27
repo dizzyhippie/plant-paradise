@@ -11,9 +11,43 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16511013381679f18c": {
+      "type": "newsletter",
+      "blocks": {
+        "165110133805182183-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign Up For  New Blog Posts!"
+          }
+        },
+        "165110133805182183-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know when we post new blogs!<\/p>"
+          }
+        },
+        "165110133805182183-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "165110133805182183-0",
+        "165110133805182183-1",
+        "165110133805182183-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16511013381679f18c"
   ]
 }
