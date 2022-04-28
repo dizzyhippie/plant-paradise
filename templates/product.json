@@ -159,18 +159,18 @@
         "1651104408154db341-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Hassle Free Returns",
+            "icon": "return",
+            "row_content": "<p>Just like the title says!<\/p>",
             "page": ""
           }
         },
         "1651104408154db341-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Tracking and Delivery Notifications",
+            "icon": "truck",
+            "row_content": "<p>Thank god for Purolator!<\/p>",
             "page": ""
           }
         }
