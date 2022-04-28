@@ -114,7 +114,8 @@
       </span>
     {%- endif -%}
     <div class="accepts-marketing">
-      <input id="accepts-marketing" type="checkbox" name="customer[accepts_marketing]" value="" />
+      <input type="hidden" name="customer[accepts_marketing]" value="" />
+      <input type="checkbox" name="customer[accepts_marketing]" />
       <label for="accepts-marketing">{{'customer.register.email_consent' | t}}</label>
     </div>
     <button>
