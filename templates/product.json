@@ -135,78 +135,63 @@
         "include_margins": true
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
+    "1651104408705c6971": {
+      "type": "collapsible-content",
       "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
+        "1651104408154db341-0": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "Shipping Information",
-            "heading_size": "h1"
+            "heading": "Free Shipping",
+            "icon": "box",
+            "row_content": "<p>Free Shipping on all orders!<\/p>",
+            "page": ""
           }
         },
-        "image-with-text-1": {
-          "type": "text",
+        "1651104408154db341-1": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "heading": "Plant Safe Packaging",
+            "icon": "leaf",
+            "row_content": "<p>We take great care in making sure your plants are not damaged.<\/p>",
+            "page": ""
+          }
+        },
+        "1651104408154db341-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1651104408154db341-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
+        "1651104408154db341-0",
+        "1651104408154db341-1",
+        "1651104408154db341-2",
+        "1651104408154db341-3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/concernce.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "caption": "plant paradise",
+        "heading": "Shipping Information",
+        "heading_alignment": "center",
+        "layout": "section",
         "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Safe Packaging",
-            "text": "<p>Your plant will be packaged with the upmost care! Preventing damage and broken products is our top priority.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "background-2",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/racks.jpg",
+        "image_ratio": "small",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -244,8 +229,7 @@
   "order": [
     "main",
     "16488240547f5a0e83",
-    "image-with-text",
-    "multicolumn",
+    "1651104408705c6971",
     "product-recommendations",
     "1648824408f291d20b"
   ]
