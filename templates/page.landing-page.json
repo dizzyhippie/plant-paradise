@@ -9,19 +9,60 @@
     },
     "16498782357ec522c3": {
       "type": "image-with-text",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16512026349488365c": {
+      "type": "collection-list",
       "blocks": {
-        "16498782356a15768d-0": {
-          "type": "heading",
+        "1651202634612581d8-0": {
+          "type": "featured_collection",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "collection": "accessories"
+          }
+        },
+        "1651202634612581d8-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1651202634612581d8-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
           }
         }
+      },
+      "block_order": [
+        "1651202634612581d8-0",
+        "1651202634612581d8-1",
+        "1651202634612581d8-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "16498782357ec522c3"
+    "16498782357ec522c3",
+    "16512026349488365c"
   ]
 }
