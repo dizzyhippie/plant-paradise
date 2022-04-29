@@ -8,11 +8,7 @@
       }
     },
     "165120289251be529e": {
-      "type": "featured-text",
-      "settings": {
-        "section_title": "Test",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-      }
+      "type": "featured-text"
     },
     "16512026349488365c": {
       "type": "collection-list",
