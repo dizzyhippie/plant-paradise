@@ -1,3 +1,4 @@
+{{ 'section-featured-text.css' | asset_url | stylesheet_tag }}
 <h2>{{ section.settings.section_title | escape }}</h2>
 {{ section.settings.text }}
 
@@ -8,14 +9,7 @@
     {
       "type": "text",
       "id": "section_title",
-      "label": "Title",
-      "default": "Test"
-    },
-    {
-      "type": "richtext",
-      "id": "text",
-      "label": "Text",
-      "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+      "label": "Title"
     }
   ],
   "presets": [
@@ -26,3 +20,17 @@
   ]
 }
 {% endschema %}
+
+<div class="section-container">
+    <div>
+        <h2 class="featured-text-title">Nice Weather = Nice Deals!</h2>
+    </div>
+    <div class="sale-container">
+        <div class="sale-tag">
+            <h3>30% Plants</h3>
+        </div>
+        <div class="sale-tag">
+            <h3>10% Accessories</h3>
+        </div>
+    </div>
+</div>
