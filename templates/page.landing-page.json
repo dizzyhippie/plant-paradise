@@ -25,28 +25,28 @@
     "16512026349488365c": {
       "type": "collection-list",
       "blocks": {
+        "1651202634612581d8-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "plants"
+          }
+        },
         "1651202634612581d8-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "accessories"
           }
         },
-        "1651202634612581d8-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "1651202634612581d8-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         }
       },
       "block_order": [
-        "1651202634612581d8-0",
         "1651202634612581d8-1",
+        "1651202634612581d8-0",
         "1651202634612581d8-2"
       ],
       "settings": {
