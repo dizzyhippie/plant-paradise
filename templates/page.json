@@ -27,8 +27,8 @@
         "16498782356a15768d-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Plants",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
