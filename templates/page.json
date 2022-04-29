@@ -97,7 +97,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Shop Plants",
-        "button_link": "",
+        "button_link": "shopify:\/\/collections\/all",
         "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "padding_top": 36,
